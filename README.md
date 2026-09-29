@@ -1,5 +1,6 @@
 # K4 — Level 3B, Ngày 12: Hạ Tầng Cloud & Deployment (240 phút)
 
+
 Đưa một AI agent từ `localhost:8000` lên một địa chỉ công khai mà người khác
 gọi được, có bảo mật, có giới hạn chi phí, và không sập khi bạn deploy bản mới.
 
@@ -154,7 +155,7 @@ cp .env.example .env          # Windows: copy .env.example .env
 Mở `.env`, đổi `AGENT_API_KEY` thành khóa của riêng bạn:
 
 ```bash
-python -c "import secrets; print(secrets.token_urlsafe(32))"
+python -c "import secrets; printoken_urlsafet(secrets.(32))"
 ```
 
 `.env` đã nằm trong `.gitignore` — **không bao giờ commit file này**.
